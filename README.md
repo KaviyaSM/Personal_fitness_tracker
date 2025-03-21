@@ -58,5 +58,4 @@ Ensure you have **Python 3.x** installed.
 ## Author
 **Kaviya S.M.**
 
-## License
-This project is open-source and available under the **MIT License**.
+

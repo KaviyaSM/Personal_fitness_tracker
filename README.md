@@ -3,6 +3,8 @@
 ## Overview
 This project is a **Personal Fitness Tracker** application built using **Streamlit** and **Machine Learning**. The application predicts the number of calories burned based on user input parameters such as age, BMI, duration, heart rate, body temperature, and gender.
 
+![Image](https://github.com/user-attachments/assets/0a159189-c592-4ccf-9973-e5124aebdd76)
+
 ## Features
 - Interactive **Streamlit UI** for real-time calorie burn predictions
 - **Machine Learning Model** using Random Forest Regressor

@@ -102,8 +102,8 @@ df = user_input_features()
 # Load and preprocess data
 @st.cache_data
 def load_data():
-    calories = pd.read_csv("calories.csv")
-    exercise = pd.read_csv("exercise.csv")
+    calories = pd.read_csv("personalfitness/calories.csv")
+    exercise = pd.read_csv("personalfitness/exercise.csv")
     
     exercise_df = exercise.merge(calories, on="User_ID")
     exercise_df.drop(columns="User_ID", inplace=True)
